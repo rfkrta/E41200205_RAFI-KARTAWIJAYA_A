@@ -15,8 +15,7 @@ public class AnimalApp {
         animal.makeNoise();
         Dogs dog = new Dogs();
         dog.makeNoise();
-        //Dogs animals = new Dogs();
-        //animal.makeNoise();
+        Dogs animalss = new Dogs();
         
        Animal animaldog = new Dogs();
        animaldog.makeNoise();
@@ -30,7 +29,6 @@ public class AnimalApp {
        if (animaldog instanceof Animal)
             System.out.println("animaldog is Animal");
        
-       if (animal instanceof Dogs)
-            System.out.println("animal is Dog");
+     
     }
 }

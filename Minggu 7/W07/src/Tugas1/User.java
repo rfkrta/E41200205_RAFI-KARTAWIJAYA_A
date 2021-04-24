@@ -7,7 +7,7 @@ package Tugas1;
 public class User {
 
     public static void main(String[] args) {
-        Televisi tv = new Televisi("TV Tempoe Doloem 14 inchesm ", 10);
+        Televisi tv = new Televisi("TV Tempoe Doloem 14 inch ", 10);
         String[] semuaChannel = {"RCTI", "SCTV", "INDOSIAR", "LA TV",
             "METRO TV", "TRANS TV", "TPI", "TV 7", "TVRI","G TV","Jams Tv"};
 

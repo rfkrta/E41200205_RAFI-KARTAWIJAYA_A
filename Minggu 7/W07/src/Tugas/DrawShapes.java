@@ -1,12 +1,6 @@
 
 package Tugas;
-
-/**
- *
- * @author rafikarta
- */
-
-import com.sun.corba.se.impl.orbutil.graph.Graph;
+ // @author rafikarta
 import java.awt.*;
 import java.applet.*;
 

@@ -7,7 +7,7 @@ package Tugas1;
 
 /**
  *
- * @author ASUS
+ * @author rafika
  */
 public class User2App {
     public static void main(String[] args){
@@ -28,7 +28,7 @@ public class User2App {
         tv.setHalamanTeletext(250);
         tv.setModusTampilan(TelevisiModern.TV);
         tv.playCD();
-        tv.setDiscTray("Mallaficent");
+        tv.setDiscTray("Film");
         tv.playCD();
     }
     

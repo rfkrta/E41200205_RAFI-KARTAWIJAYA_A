@@ -7,23 +7,23 @@ package Tugas1;
 
 /**
  *
- * @author ASUS
+ * @author rafikarta
  */
 public class Televisi {
-    String slew;
-    int i;
+    String tv;
+    int jumlahchannel;
     
-    Televisi(String info, int i) {
-    this.slew = info;
-    this.i = i;
+    Televisi(String info, int jumlahChannel) {
+    this.tv = info;
+    this.jumlahchannel = jumlahChannel;
     }
     
     
     public String Desk (){
-        return(slew+i);
+        return(tv);
     }
     
-    String [] channel = new String[i];
+    String [] channel = new String[jumlahchannel];
 
     
     public void getChannel() {
@@ -36,20 +36,20 @@ public class Televisi {
 }
     
  public void setChannel(String [] semuaChannel){
-     if (i >= semuaChannel.length) {
+     if (jumlahchannel >= semuaChannel.length) {
          channel = semuaChannel;
                   System.out.println("Informasi Channel berhasil di update!");
      }else {
 
-         System.out.println("Maaf tv hanya dapat menyimpan " + i +" channel");
+         System.out.println("Maaf tv hanya dapat menyimpan " + jumlahchannel +" channel");
      }
  }
  
- public void setChannelAktif(int x){
-     if (x >= channel.length) {
+ public void setChannelAktif(int jumlahChannel){
+     if (jumlahChannel >= channel.length) {
          System.out.println("Channel yg anda ingin belum di set");
      }else{
-         System.out.println("Pindah Channel ke :  " + channel[x]);
+         System.out.println("Pindah Channel ke :  " + channel[jumlahChannel]);
      }
  }
  
@@ -57,6 +57,5 @@ public class Televisi {
  public void Volume(int x){
      System.out.println("Volume = "+ x);
  }
-    
- 
+   
 }

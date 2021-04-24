@@ -9,6 +9,25 @@ package TugasB;
  *
  * @author rafikarta
  */
+
+class A {
+    void callthis(){
+        System.out.println("Inside Class A's Method!");
+    }  
+}
+
+class B extends A {
+    void callthis(){
+        System.out.println("Inside Class B's Method!");
+    }
+}
+class C extends A{
+    void callthis(){
+        System.out.println("Inside Class C's Method!");
+    }
+    
+}
+
 public class DynamicDispatch {
     public static void main(String[] args) {
         A a = new A();
